@@ -1,0 +1,501 @@
+html {
+    font-family: Mulish, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.midnight-blue {
+    color: #1E3240;
+}
+
+
+.construction {
+    background-color: #C3DAF2;
+    width: 100%;
+    height: auto;
+
+}
+
+.header {
+    width: 100%;
+    padding-top: 2.8rem;
+}
+
+.header, .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    gap: 5rem;
+    margin-right: 4.8rem;
+}
+
+
+.logo {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: 5.1rem;
+}
+
+.nav-span{
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+.construction-content {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: normal;
+    margin-top: 5rem;
+
+}
+
+.construction-content-right {
+    width: 40.7%;
+    /* height: fit-content;  s- tabe andaze vaghi khodesh?????*/ 
+    
+    
+}
+
+.construction-content-left {
+    width: 41.3%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    /* s- chera height dard??? parent aghr height nagird e andaze mohtava height migird + 
+    image height vaghi dard. mgar inke ba pixel bedahi
+    */
+    margin:  2.9rem 4rem 0 0;
+    
+}
+
+
+.construction-title {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 6.7rem;
+
+}
+
+.construction-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+
+}
+
+.construction-button-wrapper {
+    display: flex; 
+}
+
+.construction-button-wrapper button, .form-button{
+    padding: 1.1rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+    /* border-radius: 0.2rem; */
+}
+
+.button-left, .form-button {
+    background-color: #1E3240;
+    color: #ffffff;
+    
+}
+
+.button-right {
+    background-color: #C3DAF2;
+    margin-left: 2rem;
+    border: 1px solid #1E3240;;
+
+}
+
+
+
+.highlight_left {
+    width: 2rem;
+    height: 2rem;
+    background: url(image/highlight_left.svg) no-repeat;
+    position: absolute;
+    top: 22.5%;
+    right: 39%;
+    z-index: 10;
+}
+
+.highlight_right {
+    width: 2rem;
+    height: 2rem;
+    background: url(image/highlight_right.svg) no-repeat;
+    position: absolute;
+    top: 3.3%;
+    right: 12.5%;
+    z-index: 10;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 73.1%;
+    height: auto;
+    margin-top: 7rem;
+}
+
+.container > *:not(.free) {
+    margin-bottom: 11.5rem;
+}
+
+.company-winners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-winners-right {
+    width: 50%;
+    margin-top: 3.1rem;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2.5rem; */
+}
+
+.company-winners-right > *:not(.free) {
+    margin-bottom: 2.5rem; /* jaigozin gap shod*/
+
+}
+
+
+
+.work-report {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.work-report-title {
+    color: #AFD4E2;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.work-report-value {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 3.6rem;
+
+}
+
+
+
+.ongoing-projects-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-title {
+    color: #1E3240;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    
+}
+
+.content-text {
+    color: #BDBDBD;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+
+}
+
+.ongoing-projects-content p {
+    margin-top: 0.65rem;
+}
+
+.ongoing-projects-arrow {
+    display: flex;
+    align-items: end;
+}
+
+.ongoing-projects-arrow-back {
+    margin-right: 0.4rem;
+}
+
+
+.ongoing-projects-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.15rem; /*motafavet ba olgo*/
+}
+
+.card {
+    width: 31.517%;
+    height: 80%;
+    position: relative;
+}
+
+.card-content {
+    width: 82.88%; 
+    height: 17.71%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: -7.99%;
+    left: 8.6%;
+    filter: drop-shadow(0px 2px 18px rgba(0, 0, 0, 0.04));
+    /* filter: drop-shadow(0px 2px 18px #0000000A); همین رنگ با سبک کد هگزادسیمال*/
+}
+
+.card-content >* {
+    margin-left: 1.9rem;
+}
+
+.card-address {
+    display: flex;
+
+}
+
+.card-title {
+    color: #1E3240;
+    font-size: 0.88rem;
+    font-weight: 700;
+    line-height: 1.01rem;
+    margin-bottom: 0.4rem; 
+
+}
+
+.card-text {
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+    margin-left: 0.25rem;
+}
+
+
+
+.comments-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments .content-text  {
+    color: #1E3240;
+    margin-top: 1rem;
+}
+
+.comments-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.comments-content-right {
+    margin: 2.5rem 0 0 7.22rem; 
+}
+
+.comments-content-right > *:not(.free) {
+    margin-bottom: 1rem;
+
+}
+.comments-content-right-title {
+    color: #1E3240;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.51rem;
+}
+
+.comments-content-right-text, .comments-content-right-name {
+    color: #1E3240;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.comments-content-right-name {
+    font-weight: 600;
+}
+
+.comments-content-right-category {
+    color: #1E3240;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.35rem;
+    margin-top: 0.32rem;
+}
+
+/*این استایل ها اصلاح شود؛ حتی نام کلاس ها دوباره بررسی شود؛ فقط می‌خواستم خروجی را ببینم*/
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact-us-right {
+    width: 48.7%;
+    margin: 0.5rem 0 0 7.22rem;
+
+}
+
+.contact-us-form > *:not(.free) {
+    margin-bottom: 2.7rem;
+}
+
+.contact-us-form .content-text {
+    margin-top: 1rem;
+}
+
+.contact-us-form-input > *:not(.free) {
+    margin-bottom: 1.1rem;
+}
+
+.contact-us-form-input .input{
+    font-family: inherit;
+    width: 41%;
+    /* font-size: 100%; */
+    padding: 1rem;
+    border: 1px solid #1E3240;
+   
+}
+
+.contact-us-form-input .input:focus {
+    border: 2px solid #365c85; /* مرز آبی در حالت تمرکز */
+    outline: none; /* حذف outline پیش‌فرض */
+
+}
+.contact-us-form-input .description {
+    width: 93.8%;
+    height: 5.4rem;
+    resize: none;
+}
+
+.contact-us-form-input .input::placeholder {
+    color: #BDBDBD;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 1.35rem;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-text-bottom {
+    color: rgba(189, 189, 189, 0.6);
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.95rem;
+    margin-left: 1.15rem;
+}
+
+.form-button-text-wrapper {
+    display: flex;
+    align-items: center;
+} 
+
+
+
+.footer  {
+    background-color: #1E3240;
+    width: 100%;
+    height: 24rem;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    width: 72.5%;
+    height: auto;
+}
+
+.footer-container-top  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-container h3 {
+    color: #FFFFFF;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+}
+
+.footer-container a {
+    color: #BDBDBD;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    margin-top: 0.8rem;  /* چرا روی تگ ای داخل سمت راست اعمال نشد؟ درحالیکه رنگ تغییر میکند؟*/
+
+}
+
+.footer-icon {
+    color: #BDBDBD;
+    font-size: 0.88rem;
+    /* font-size: 2rem; */
+}
+
+.link-icon-text {
+    display: flex;
+    align-items: center; 
+}
+
+.link-icon-text span {
+    margin-left: 0.7rem; /*خراب شدن متن را ببین؛ این را غیر فعال کن*/
+}
+
+.link-icon-text .location-icon {
+    margin-bottom: 1rem;
+}
+
+.footer-container-bottom .copyright {
+    color: #BDBDBD;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 0.9rem;
+    margin-top: 6rem;
+}
+
+.footer-navigation {
+    width: 46.4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-column li {
+    margin-top: 0.8rem; /*چرا روی ای اعمال نمی شود؟*/
+
+}
+
+
+/* test */
+
+/* .icon-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-info {
+    background-color: #555555;
+} */
+ 
+/* end test */
+
